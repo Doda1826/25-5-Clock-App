@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+   margin: 0; 
+   padding: 0;
+}
+
+.setters{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+button{
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 30px;
+  margin: 20px;
+
+}
+
+span {
+  font-size: 24px; 
+}
+
+.display {
+  text-align: center;
+  margin-top: 20px; 
+}
+
+#time-left{
+  display: block;
+  font-size: 40px;
+}
